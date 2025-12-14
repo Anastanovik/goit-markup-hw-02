@@ -1,0 +1,375 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    /* основной цвет текста из макета */
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* === Базовые стили === */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* === Логотип === */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* Логотип в хедере: синяя + черная часть */
+.header-logo .logo-part--blue {
+    color: #4d5ae5;
+    /* синяя часть */
+}
+
+.header-logo .logo-part--black {
+    color: #2e2f42;
+    /* черная часть */
+}
+
+/* Логотип в футере: синяя + белая часть */
+.footer-logo .logo-part--blue {
+    color: #4d5ae5;
+    /* синяя часть */
+}
+
+.footer-logo .logo-part--white {
+    color: #f4f4fd;
+    /* белая часть */
+}
+
+/* === Навигация === */
+.nav-list .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    color: #2e2f42;
+}
+
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+    color: #404bbf;
+}
+
+/* === Контакты === */
+.contacts {
+    font-style: normal;
+}
+
+.contacts-list .contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    color: #434455;
+}
+
+.contacts-list .contacts-link:hover,
+.contacts-list .contacts-link:focus {
+    color: #404bbf;
+}
+
+.features {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.features-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    color: #2E2F42;
+    margin-bottom: 50px;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-item {
+    width: 250px;
+    text-align: center;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    margin-bottom: 10px;
+    color: #2E2F42;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #434455;
+}
+
+.feature-title {
+    font-family: 'Roboto', sans-serif;
+    /* как в макете */
+    font-size: 20px;
+    /* H3 */
+    font-style: normal;
+    font-weight: 500;
+    /* Medium */
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+    margin-bottom: 10px;
+    color: #2E2F42;
+    /* можно изменить, если макет другой */
+}
+
+.feature-description {
+    font-family: 'Roboto', sans-serif;
+    /* Body */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* Regular */
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    color: #434455;
+    /* Slate из макета */
+}
+
+/* === Our Team Section === */
+.team {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.team .section-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    /* Bold */
+    font-size: 36px;
+    /* H2 */
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    color: #2E2F42;
+    /* NAVY-BLUE */
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* чтобы карточки переносились на маленьких экранах */
+    justify-content: center;
+    gap: 30px;
+    /* расстояние между карточками */
+    padding: 0;
+    margin: 0;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 232px;
+    /* ширина карточки */
+    gap: 8px;
+    /* расстояние между элементами карточки */
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* скругление, если нужно */
+}
+
+.team-member-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 20px;
+    /* H3 */
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+    color: #2E2F42;
+    /* NAVY-BLUE */
+}
+
+.team-member-role {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* Regular */
+    font-size: 16px;
+    /* Body */
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    color: #434455;
+    /* SLATE */
+}
+
+/* === Portfolio Section === */
+.portfolio {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.portfolio .section-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    /* Bold */
+    font-size: 36px;
+    /* H2 */
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    color: #2E2F42;
+    /* NAVY-BLUE */
+    margin-bottom: 50px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* чтобы карточки переносились на маленьких экранах */
+    justify-content: center;
+    gap: 30px;
+    /* расстояние между карточками */
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    /* ширина карточки */
+    gap: 8px;
+    /* расстояние между элементами карточки */
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 300px;
+    /* фиксированная высота */
+    object-fit: cover;
+    /* изображение вписывается в блок */
+    border-radius: 8px;
+    /* скругление, если нужно */
+}
+
+.portfolio-item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 20px;
+    /* H3 */
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+    color: #2E2F42;
+    /* NAVY-BLUE */
+}
+
+.portfolio-item p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* Regular */
+    font-size: 16px;
+    /* Body */
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    color: #434455;
+    /* SLATE */
+}
+
+/* === Footer === */
+footer {
+    padding: 50px 20px;
+    background-color: #2E2F42;
+    /* темный фон футера */
+    text-align: center;
+}
+
+footer .logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Логотип футера: синяя и белая часть */
+footer .logo .logo-part--blue {
+    color: #4d5ae5;
+    /* синяя часть */
+}
+
+footer .logo .logo-part--white {
+    color: #f4f4fd;
+    /* белая часть */
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* Regular */
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #f4f4fd;
+    /* светлый текст на темном фоне */
+    margin: 0;
+}
